@@ -841,6 +841,11 @@ textarea::placeholder {
   background-position: right top;
   background-size: auto;
 }
+@media only screen and (max-width: 767px) {
+  .s-form {
+    background-image: none; 
+  }
+}
 .form-row {
   display: flex;
   align-items: center;
